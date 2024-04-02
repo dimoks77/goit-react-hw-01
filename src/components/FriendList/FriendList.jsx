@@ -6,7 +6,7 @@ const FriendList = ({ friend: { avatar, name, isOnline } }) => {
     <div className={css.container}>
       <img className={css.avatar} src={avatar} alt="Avatar" width="48" />
       <h3 className={css.name}>{name}</h3>
-      <p className={statusClass ? 'css.status' : 'css.status.offline'}>{isOnline ? 'Online' : 'Offline'}</p>
+      <p className={statusClass }>{isOnline ? 'Online' : 'Offline'}</p>
     </div>
   );
 };
