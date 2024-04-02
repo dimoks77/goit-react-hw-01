@@ -6,6 +6,7 @@
     background: #000;
     align-items: center;
     text-align: center;
+    width: 180px;
   }
   
   .avatar {
@@ -33,9 +34,7 @@
     display: flex;
     list-style-type: none;
     gap: 10px;
-    /* background: gray; */
     padding: 0;
-    /* margin: 10px 0; */
   }
   
   .statsList li {
