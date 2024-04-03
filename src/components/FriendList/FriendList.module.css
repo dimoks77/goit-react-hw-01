@@ -9,6 +9,14 @@
     text-align: center;
     width: 100px;
   }
+
+  .friendList {
+    margin-left: -30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
   
   .avatar {
     width: 48px;
