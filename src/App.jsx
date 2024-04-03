@@ -17,6 +17,7 @@ const App = () => {
       />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
+      <small>v.3</small>
     </div>
   );
 };
